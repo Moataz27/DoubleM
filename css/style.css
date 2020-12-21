@@ -6,6 +6,10 @@
 body{
     background-color:#212529
 }
+/* Style All links in Page */
+a:hover{
+    text-decoration: none;
+}
 /* Set Color For Brand Name */
 .navbar-dark .navbar-brand,
 .navbar-dark .navbar-brand:hover{
@@ -61,5 +65,24 @@ span.custom{
 .parent-container{
     margin-top: 125px !important;
 }
+
+/* Style Info Section */
+div.info{
+    margin-top: 80px !important
+}
+
+/* Style Testmonials Section */
+div.testmonials{
+    margin-top : 80px;
+}
+.testmonials img{
+    width: 70px !important;
+}
+.testmonials .carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
 
 
