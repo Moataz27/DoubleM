@@ -1,3 +1,7 @@
+/* Style Html */
+html, body {
+    scroll-behavior: smooth;
+}
 /* Set Font For Website */
 *{
     font-family: 'Noto Sans', sans-serif;
@@ -84,5 +88,46 @@ div.testmonials{
     border-radius: 50%;
 }
 
+/* Style Prices Section */
+.price{
+    font-size:30px;
+    color: #CCC;
+}
 
+.divider{
+    border-color:#007bff
+}
+svg.fa-check{
+    color:#0F0;
+}
+svg.fa-times{
+    color:#F00;
+}
 
+/* Style Footer */
+
+footer {
+    background:#343a40;
+}
+.roadmap li{
+    margin-top: 10px;
+}
+.accounts li {
+    display:inline-block;
+    font-size:32px;
+    margin-right:15px;
+}
+.accounts li:first-of-type a svg {
+    color:#4267B2;
+}
+.accounts li:nth-of-type(2) a svg {
+    color:#0e76a8 ;
+}
+.accounts li:nth-of-type(3) a svg {
+    color:#6cc644 ;
+}
+
+.copyright {
+    font-size:18px;
+    padding-bottom:5px;
+}
