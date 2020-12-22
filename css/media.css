@@ -1,0 +1,25 @@
+/* Extra Small Media */
+@media (max-width: 575.98px) {
+    .about-text, .test-header{
+        font-size: 18px !important;
+        font-weight: 700;
+    }
+    .lead{
+        font-size:1rem;
+    }
+    img[alt='Moataz']{
+        width: 100% !important;
+    }
+    .scrollTop {
+        right: 25px
+    }
+}
+/* Medium Screen Media */
+@media (max-width: 991.98px) {
+    ul.list-unstyled li{
+        font-size:14px;
+    }
+    .header-head{
+        font-size: 2.5rem;
+    }
+}

@@ -12,14 +12,15 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
         <!-- Start Navbar -->
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">Double-M</a>
-                <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-                    aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="collapsibleNavId">
                     <ul class="navbar-nav ml-5 mr-auto mt-2 mt-lg-0">
@@ -43,35 +44,35 @@
             <!-- Header Section -->
             <div class="header mt-5">
                 <div class="row">
-                    <div class="col-6 pt-5">
-                        <h1 class = "display-4 white"><span class = "custom">Creative </span>Agency</h1>
+                    <div class="col-12 col-md-6 pt-5">
+                        <h1 class = "display-4 white header-head"><span class = "custom">Creative </span>Agency</h1>
                         <p class = "lead text-light">Create Your own Potfolio With us.</p>
                         <p class = "custom-p">Double-M Software For Youth Web Developers To make Own Portfolio, Free with Full Customized Components.</p>
                         <button class = "btn">Learn More</button>
                     </div>
-                    <div class="col-6">
+                    <div class="col-12 col-md-6">
                         <img class = "img-fluid" src = "img/undraw_portfolio_website_lidw.svg">
                     </div>
                 </div>
             </div>
             <!-- More Info Section -->
-            <div class="info pt-5" id = "about">
-                <div class="row pt-2">
-                    <div class="col-8">
-                        <h2 class = "display-5 text-light">About <span class = "custom">Double-M</span> Company..?</h2>
-                        <p class="lead text-light pt-3">
+            <div class="info pt-0 pt-md-5" id = "about">
+                <div class="row pt-md-2 pt-0">
+                    <div class="col-12 col-md-8">
+                        <h2 class = "display-5 text-light about-text">About <span class = "custom">Double-M</span> Company..?</h2>
+                        <p class="lead text-light pt-md-3 pt-0">
                             Egyptian Software Development Company Owned By Mr. Moataz Ahmed is a Full Stack Web Developer Graduated From Faculty Of Computer Science Benha University have 2 Years Experience In Web Development.
                         </p>
                         <a href="https://www.linkedin.com/in/moataz2707/" target = "_blank" class = "text-muted"><i class="fas fa-external-link-alt mr-2"></i>Learm more about Moataz</a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4 mt-3 mt-md-0">
                         <img class = "w-75 img-fluid rounded-circle" src="img/moataz.jpg" alt="Moataz">
                     </div>
                 </div>
             </div>
             <!-- Testmonials Section -->
             <div class="testmonials">
-                <h2 class = " text-light mb-5">What Customers Say About US</h2>
+                <h2 class = "text-light mb-5 test-header">What Customers Say About US</h2>
                 <div id="demo" class="carousel slide" data-ride="carousel">
                     <ul class="carousel-indicators">
                         <li data-target="#demo" data-slide-to="0" class="active"></li>
@@ -98,7 +99,7 @@
             <div id="prices" class = "mt-5 pt-2 pb-5">
                 <h2 class = "text-center text-light mb-5">Prices</h2>
                 <div class="row justify-content-center">
-                    <div class="col-4">
+                    <div class="col-md-5 col-12 mb-3 mb-md-0">
                         <div class="card bg-dark text-light">
                             <div class="card-body text-center">
                                 <h5 class="card-title">Normal</h5>
@@ -106,7 +107,7 @@
                                 <div class="dropdown-divider divider"></div>
                                 <ul class = "list-unstyled text-left mt-3">
                                     <li><i class="fas fa-check fa-fw mr-2"></i>Two Porofolis</li>
-                                    <li><i class="fas fa-check fa-fw mr-2"></i>Customized Header and Footer</li>
+                                    <li><i class="fas fa-check fa-fw mr-2"></i>Customized Header, Footer</li>
                                     <li><i class="fas fa-check fa-fw mr-2"></i>20 Mails Per Day</li>
                                     <li><i class="fas fa-times fa-fw mr-2"></i>Login/Registeration System</li>
                                     <li><i class="fas fa-times fa-fw mr-2"></i>Remove Water Mark</li>
@@ -116,7 +117,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-md-5 col-12">
                         <div class="card bg-dark text-light text-center">
                             <div class="card-body">
                                 <h5 class="card-title">Pro</h5>
@@ -136,12 +137,12 @@
                     </div>
                 </div>
             </div>
-            <!-- Start Footer -->
         </div>
+        <!-- Start Footer -->
         <footer>
             <div class="container">
                 <div class="row">
-                    <div class="col-4 p-5">
+                    <div class="col-md-4 col-12 p-5">
                         <ul class="roadmap list-unstyled">
                             <li><a href="#" class = "text-decoration-none text-light">Home</a></li>
                             <li><a href="#" class = "text-decoration-none text-light">About Us</a></li>
@@ -154,13 +155,13 @@
                             <li><a href="https://github.com/Moataz27" target = "_blank" class = "text-decoration-none"><i class="fab fa-github fa-fw"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-8 p-5">
+                    <div class="col-md-8 col-12 p-5">
                         <h2 class = "text-light">Sponsers</h2>
                         <div class="row text-center mt-5">
-                            <div class="col-3"><i class="fab fa-apple fa-fw fa-5x"></i></div>
-                            <div class="col-3"><i class="fab fa-cc-paypal fa-fw fa-5x"></i></div>
-                            <div class="col-3"><i class="fab fa-fedex fa-fw fa-5x"></i></div>
-                            <div class="col-3"><i class="fab fa-apple-pay fa-fw fa-5x"></i></div>
+                            <div class="col-lg-3 col-6"><i class="fab fa-apple fa-fw fa-5x"></i></div>
+                            <div class="col-lg-3 col-6"><i class="fab fa-cc-paypal fa-fw fa-5x"></i></div>
+                            <div class="col-lg-3 col-6"><i class="fab fa-fedex fa-fw fa-5x"></i></div>
+                            <div class="col-lg-3 col-6"><i class="fab fa-apple-pay fa-fw fa-5x"></i></div>
                         </div>
                     </div>
                 </div>

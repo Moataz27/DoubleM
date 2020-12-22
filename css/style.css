@@ -108,6 +108,7 @@ svg.fa-times{
 
 footer {
     background:#343a40;
+    width:100% !important;
 }
 .roadmap li{
     margin-top: 10px;
