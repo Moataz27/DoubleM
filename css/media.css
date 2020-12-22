@@ -16,7 +16,7 @@
 }
 /* Medium Screen Media */
 @media (max-width: 991.98px) {
-    ul.list-unstyled li{
+    .prices ul.list-unstyled li{
         font-size:14px;
     }
     .header-head{
