@@ -131,3 +131,28 @@ footer {
     font-size:18px;
     padding-bottom:5px;
 }
+
+
+/* Style Scroll To Top Button */
+
+.scrollTop{
+    position:fixed;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    bottom:15px;
+    right:50px;
+    background-color: #495057;
+    cursor:pointer;
+    border: 2px solid #0e76a8;
+    display:none;
+}
+.scrollTop svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    font-size:20px;
+    color:#007bff;
+}
